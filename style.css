@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #0077cc;
+}
+
+/* Main Content */
+main h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    overflow-x: auto;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Button */
+button {
+    background-color: #ff4b4b; /* Color rojo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    float: right; /* Alinear el botón a la derecha */
+    margin-bottom: 10px; /* Separar del texto */
+}
+
+button:hover {
+    background-color: #cc3c3c;
+}
+
+/* Console Output */
+#consoleOutput {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#consoleContent {
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 50px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Footer */
+footer p {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Icon Positioning */
+.logo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: auto;
+}

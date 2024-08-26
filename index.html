@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluciones de Código - #7DaysOfCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Soluciones de Código - #7DaysOfCode</h1>
+    </header>
+    <main>
+        <section id="solution1">
+            <button onclick="runSolution1()">Ejecutar Código</button>
+            <h2>Comparación de Valores y Tipos en JavaScript</h2>
+            <pre><code>
+let numeroUn = 1;
+let stringUn = '1';
+
+if (numeroUn === stringUn) {
+  console.log('Las variables numeroUn y stringUn tienen el mismo valor y el mismo tipo');
+} else if (numeroUn == stringUn) {
+  console.log('Las variables numeroUn y stringUn tienen el mismo valor, pero tipos diferentes');
+} else {
+  console.log('Las variables numeroUn y stringUn no tienen el mismo valor');
+}
+            </code></pre>
+            <!-- Consola -->
+            <div id="consoleOutput">
+                <h3>Consola:</h3>
+                <div id="consoleContent"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Rafael Segnini</p>
+    </footer>
+    <!-- Colocar el icono en la esquina superior derecha -->
+    <img src="nekochan.webp" alt="Icono" class="logo">
+    <script src="script.js"></script>
+</body>
+</html>
