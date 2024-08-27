@@ -11,28 +11,71 @@
         <h1>Soluciones de Código - #7DaysOfCode</h1>
     </header>
     <main>
+        <!-- Primera sección -->
         <section id="solution1">
             <button onclick="runSolution1()">Ejecutar Código</button>
             <h2>Comparación de Valores y Tipos en JavaScript</h2>
             <pre><code>
-let numeroUn = 1;
-let stringUn = '1';
-
-if (numeroUn === stringUn) {
-  console.log('Las variables numeroUn y stringUn tienen el mismo valor y el mismo tipo');
-} else if (numeroUn == stringUn) {
-  console.log('Las variables numeroUn y stringUn tienen el mismo valor, pero tipos diferentes');
-} else {
-  console.log('Las variables numeroUn y stringUn no tienen el mismo valor');
-}
+    let numeroUn = 1;
+    let stringUn = '1';
+    
+    if (numeroUn === stringUn) {
+      console.log('Las variables numeroUn y stringUn tienen el mismo valor y el mismo tipo');
+    } else if (numeroUn == stringUn) {
+      console.log('Las variables numeroUn y stringUn tienen el mismo valor, pero tipos diferentes');
+    } else {
+      console.log('Las variables numeroUn y stringUn no tienen el mismo valor');
+    }
             </code></pre>
-            <!-- Consola -->
-            <div id="consoleOutput">
+            <div id="consoleOutput1">
                 <h3>Consola:</h3>
-                <div id="consoleContent"></div>
+                <div id="consoleContent1"></div>
+            </div>
+        </section>
+    
+        <!-- Segunda sección -->
+        <section id="solution2">
+            <button onclick="runSolution2()">Ejecutar Código</button>
+            <h2>Comparación de numeroTreinta y stringTreinta</h2>
+            <pre><code>
+    let numeroTreinta = 30;
+    let stringTreinta = '30';
+    
+    if (numeroTreinta === stringTreinta) {
+      console.log('Las variables numeroTreinta y stringTreinta tienen el mismo valor y el mismo tipo');
+    } else {
+      console.log('Las variables numeroTreinta y stringTreinta no tienen el mismo tipo');
+    }
+            </code></pre>
+            <div id="consoleOutput2">
+                <h3>Consola:</h3>
+                <div id="consoleContent2"></div>
+            </div>
+        </section>
+    
+        <!-- Tercera sección -->
+        <section id="solution3">
+            <button onclick="runSolution3()">Ejecutar Código</button>
+            <h2>Comparación de numeroDiez y stringDiez</h2>
+            <pre><code>
+    let numeroDiez = 10;
+    let stringDiez = '10';
+    
+    if (numeroDiez === stringDiez) {
+      console.log('Las variables numeroDiez y stringDiez tienen el mismo valor y el mismo tipo');
+    } else if (numeroDiez == stringDiez) {
+      console.log('Las variables numeroDiez y stringDiez tienen el mismo valor, pero tipos diferentes');
+    } else {
+      console.log('Las variables numeroDiez y stringDiez no tienen el mismo valor');
+    }
+            </code></pre>
+            <div id="consoleOutput3">
+                <h3>Consola:</h3>
+                <div id="consoleContent3"></div>
             </div>
         </section>
     </main>
+    
     <footer>
         <p>© 2024 Rafael Segnini</p>
     </footer>

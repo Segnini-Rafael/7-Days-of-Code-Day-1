@@ -9,27 +9,20 @@ body {
 
 /* Header */
 header h1 {
-    margin-bottom: 20px;
     font-size: 2rem;
     color: #0077cc;
+    text-align: center;
 }
 
 /* Main Content */
-main h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
-    color: #444;
+main {
+    padding: 20px;
 }
 
-pre {
-    background-color: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: left;
-    overflow-x: auto;
-    margin: 20px 0;
-    font-size: 0.9rem;
-    line-height: 1.5;
+h2 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-top: 0;
 }
 
 /* Button */
@@ -49,13 +42,23 @@ button:hover {
     background-color: #cc3c3c;
 }
 
-/* Console Output */
-#consoleOutput {
+/* Code Block Styling */
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    overflow-x: auto;
+    font-size: 0.9rem;
+}
+
+/* Console Output Styling */
+#consoleOutput1, #consoleOutput2, #consoleOutput3 {
     margin-top: 20px;
     text-align: left;
 }
 
-#consoleContent {
+#consoleContent1, #consoleContent2, #consoleContent3 {
     background-color: #eee;
     padding: 15px;
     border-radius: 5px;
@@ -66,18 +69,18 @@ button:hover {
     color: #333;
 }
 
+/* Logo Position */
+.logo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: auto;
+}
+
 /* Footer */
 footer p {
     margin-top: 30px;
     font-size: 0.9rem;
     color: #888;
-}
-
-/* Icon Positioning */
-.logo {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 50px;
-    height: auto;
 }
